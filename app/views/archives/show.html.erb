@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @archive.title %>
+</p>
+
+<p>
+  <strong>Date dif:</strong>
+  <%= @archive.date_dif %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @archive.description %>
+</p>
+
+<p>
+  <strong>Duration:</strong>
+  <%= @archive.duration %>
+</p>
+
+<p>
+  <strong>Animateur:</strong>
+  <%= @archive.animateur %>
+</p>
+
+<p>
+  <strong>Guest:</strong>
+  <%= @archive.guest %>
+</p>
+
+<%= link_to 'Edit', edit_archive_path(@archive) %> |
+<%= link_to 'Back', archives_path %>
