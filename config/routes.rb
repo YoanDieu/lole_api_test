@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :actualites
   resources :archives
 
   root "archives#index"

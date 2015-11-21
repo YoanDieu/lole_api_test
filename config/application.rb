@@ -24,7 +24,7 @@ module LoleApiTest
     config.active_record.raise_in_transactional_callbacks = true
 
     config.action_dispatch.default_headers = {
-        'Access-Control-Allow-Origin' => 'file:///home/yoan/www/LOLE/test_angular1/lole.html',
+        'Access-Control-Allow-Origin' => '127.0.0.1/file:///home/yoan/www/LOLE/test_angular1/lole.html',
         'Access-Control-Request-Method' => %w{GET}.join(",")
       }
   end
